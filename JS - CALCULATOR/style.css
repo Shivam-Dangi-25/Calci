@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   body{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       background-color: #b4d6e8;
+   }
+   h1{
+       margin-bottom: 80px;
+       letter-spacing: 3px;
+       color: blue;
+       font-variant: small-caps;
+       text-shadow: 3px 3px rgba(0, 89, 255, 0.412);
+       font-weight: bold;
+       text-decoration: underline blue;
+       text-underline-offset: 8px;
+   }
+
+   .calculator{
+       background-color: #e8e8e8;
+       box-shadow: 0px 0px 8px 2px;
+       border-radius: 15px;
+       min-width: 300px;
+       padding: 15px;
+       /* background-image: linear-gradient(45deg , rgb(77, 77, 183), rgb(37, 37, 208)); */
+   }
+
+   .inps{
+       padding: 8px;
+   }
+
+   .calculator input{
+       width: 160px;
+       padding: 8px 10px;
+       font-size: 18px;
+       border-radius: 5px;
+       border: 1px solid rgb(43, 137, 226);
+   }
+
+   #operator{
+       display: inline-block;
+       font-size: 18px;
+       margin: 0px 10px;
+       width: 20px;
+       font-size: 35px;
+       text-align: center;
+       font-weight: 600;
+   }
+
+   #ans{
+       width: 100%;
+       text-align: center;
+       margin: 10px 0px;
+       border-radius: 5px;
+       border: 1px solid rgb(43, 137, 226);
+   }
+
+   .btns{
+       background-color: aqua;
+   }
+   .btnRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   button{
+       padding: 10px;
+       font-size: 25px;
+       width: 70px;
+       height: 70px;
+       margin: 8px;
+       font-weight: 600;
+       border-radius: 50%;
+       /* border: 1px solid rgb(43, 137, 226); */
+       border: none;
+       box-shadow: 2px 2px 5px rgb(120, 120, 120), -1px -2px 5px #fff, -1px -1px 5px #333;
+   }
+
+   button:active{
+       box-shadow: 2px 4px 5px #333 inset
+   }
+
+   .equal{
+       width: 160px;
+       border-radius: 15px;
+       background-color: #FF612C;
+       color: #fff;
+       font-size: 40px;
+       font-weight: 500;
+   }
+
+   .op{
+    color: #FF612C;
+    font-weight: 800;
+   }
+
